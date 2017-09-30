@@ -1,0 +1,17 @@
+{
+  "name": "logging",
+  "version": "1.0.0",
+  "description": "Testing bunyan logging",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "gelf-stream": "^1.1.1",
+    "split": "^1.0.1"
+  }
+}
